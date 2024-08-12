@@ -181,3 +181,23 @@ h3{
 
 }
 /* destination section end */
+
+
+
+.bar{
+   display: none;
+   font-size: 1.8rem;
+}
+
+/* responsive  */
+
+@media screen and (max-width:576px){
+   .navOption{
+      display: none;
+   }
+   .bar{
+      display: block;
+   }
+   
+   
+}
