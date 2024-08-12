@@ -10,11 +10,25 @@ body{
 }
 
 .container{
-    width: 90%;
+    max-width: 1170px;
     margin: 5rem auto;
     border-radius: 1rem;
+    width: 95%;
 }
-
+h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #131318;
+ } 
+.btn-primary{
+    color: #fff;
+    background-color: #FF5400;
+    width: 174px;
+    height: 52px;
+    padding: 0 0.5rem;
+    border-radius: .5rem;
+    border: none;
+} 
 /* nav style start */
  .navBar{
     display: flex;
@@ -38,11 +52,7 @@ body{
     color: #424247;
 
  }
- .logo h3{
-    font-size: 2.25rem;
-    font-weight: 800;
-    color: #131318;
- } 
+
  .orange{
     color:#FF5400 ;
  }
@@ -86,17 +96,40 @@ body{
     align-items: center;
     backdrop-filter: blur(1px);
 }
-.banner input, .banner select,.btn-primary{
+.banner input, .banner select{
     width: 174px;
     height: 52px;
     padding: 0 0.5rem;
     border-radius: .5rem;
     border: none;
     color: #555;
-    
 }
- .btn-primary{
-    color: #fff;
-    background-color: #FF5400;
-} 
+
 /* banner end */
+/* popular section start  */
+ .popular-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+ }
+ .popular-text{
+    display: flex;
+    flex-direction: column;
+    row-gap:1.5rem ;
+ }
+ .popular-section p, .popular-section li{
+    /*  */
+    color: #131318B3;
+    letter-spacing: 1px;
+ }
+ .popular-section ul{
+    position: relative;
+    left: 20px;
+ }
+ .popular-section li{
+    margin-top: 20px;
+ }
+ .popular-img-container{
+ }
+/* popular section end  */
